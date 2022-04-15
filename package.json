@@ -1,9 +1,12 @@
 {
-  "name": "three",
+  "name": "@jamesyong-42/three",
   "version": "0.133.1",
   "description": "JavaScript 3D library",
   "main": "build/three.js",
   "module": "build/three.module.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mrdoob/three.js"
